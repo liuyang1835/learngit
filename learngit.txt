@@ -1,3 +1,5 @@
 git 常用命令
 git init 将目录变成git可管理仓库（repository）
 git add, git commit -m<msg> 添加修改，提交到仓库
+git status 查看工作区状态
+git diff 查看修改内容
