@@ -1,0 +1,2 @@
+git 常用命令
+git init 将目录变成git可管理仓库（repository）
