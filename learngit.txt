@@ -3,3 +3,6 @@ git init 将目录变成git可管理仓库（repository）
 git add, git commit -m<msg> 添加修改，提交到仓库
 git status 查看工作区状态
 git diff 查看修改内容
+git reset --hard  回退到某个commit
+git log --pretty=oneline 提交记录
+git reflog  历史操作记录
