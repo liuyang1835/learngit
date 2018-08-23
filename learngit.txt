@@ -1,8 +1,10 @@
 git 常用命令
-git init 将目录变成git可管理仓库（repository）
+git init 将目录变成git可管理仓库（repository 即.git目录，也叫版本库）
 git add, git commit -m<msg> 添加修改，提交到仓库
 git status 查看工作区状态
 git diff 查看修改内容
 git reset --hard  回退到某个commit
+git reset HEAD <file> 把暂存区的修改回退到工作区。当我们用HEAD时，表示最新的版本。
 git log --pretty=oneline 提交记录
 git reflog  历史操作记录
+git checkout -- file 丢弃工作区的修改
