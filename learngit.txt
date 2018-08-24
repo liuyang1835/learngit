@@ -9,3 +9,17 @@ git log --pretty=oneline 提交记录
 git reflog  历史操作记录
 git checkout -- file 丢弃工作区的修改
 git rm file 删除文件
+
+
+github
+1、创建ssh key
+$ ssh-keygen -t rsa -C "youremail@example.com"
+将在用户主目录.ssh目录下创建id_rsa和id_rsa.pub两个文件，即ssh key的秘钥对，id_rsa是私钥，id_rsa.pub是公钥
+2、登际github, 在account settings－－> ssh key页面Add SSH Key, 填入id_rsa.pub文件内容
+
+关联本地仓库与远程仓库,并推送本地仓库所有内容到远端
+git remote add origin git@github.com:liuyang1835/learngit.git
+git push -u origin master 首次推送加上－u参数用以关联
+
+git push origin master 将本地master分支的最新修改推送到github
+
