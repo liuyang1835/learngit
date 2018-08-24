@@ -8,3 +8,4 @@ git reset HEAD <file> 把暂存区的修改回退到工作区。当我们用HEAD
 git log --pretty=oneline 提交记录
 git reflog  历史操作记录
 git checkout -- file 丢弃工作区的修改
+git rm file 删除文件
