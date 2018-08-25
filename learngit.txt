@@ -28,9 +28,15 @@ git clone -b xxx git@github.com:liuyang1835/xxx.git 从远端克隆指定分支
 
 git checkout -b dev 创建并切换分支，相当于git branch dev , git checkout dev
 git branch 查看分支列表（当前分支以*标识）
+git branch -a 查看所有分支，包括远端分支
 
 git branch -d dev 删除分支
 git push origin --delete dev 删除远端分支
+删除后git branch -a仍可看到删除的分支，可通过如下处理
+git remote show origin 可以看到删除分支情况
+git remote prune origin
+
+
 git stash 暂存当前修改
 git stash list 暂存列表
 git stash apply 恢复暂存但不删除暂存
