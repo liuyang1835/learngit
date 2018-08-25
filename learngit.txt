@@ -28,3 +28,10 @@ git clone git@github.com:liuyang1835/xxx.git 从远端克隆一个本地仓库
 git checkout -b dev 创建并切换分支，相当于git branch dev , git checkout dev
 git branch 查看分支列表（当前分支以*标识）
 
+git branch -d dev 删除分支
+git stash 暂存当前修改
+git stash list 暂存列表
+git stash apply 恢复暂存但不删除暂存
+git stash pop 恢复暂存并删除暂存
+git stash apply/pop stash@{0} 恢复指定暂存
+
