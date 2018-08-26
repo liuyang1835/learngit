@@ -49,3 +49,5 @@ git stash apply 恢复暂存但不删除暂存
 git stash pop 恢复暂存并删除暂存
 git stash apply/pop stash@{0} 恢复指定暂存
 
+git rebase 将本地未push的分叉提交历史整理成直线
+
