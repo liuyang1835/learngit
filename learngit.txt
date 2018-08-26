@@ -51,3 +51,7 @@ git stash apply/pop stash@{0} 恢复指定暂存
 
 git rebase 将本地未push的分叉提交历史整理成直线
 
+git tag <tagname> 新建一个标签
+git tag -a <tagname> -m "lalal..." 指定标签信息
+git tag 查看所有标签
+
