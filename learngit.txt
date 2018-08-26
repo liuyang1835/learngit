@@ -31,6 +31,7 @@ git branch 查看分支列表（当前分支以*标识）
 git branch -a 查看所有分支，包括远端分支
 
 git branch -d dev 删除分支
+git branch -D dev 强制删除分支（未被合并的分支删除时会报错，使用－D强制删除）
 git push origin --delete dev 删除远端分支
 删除后git branch -a仍可看到删除的分支，可通过如下处理
 git remote show origin 可以看到删除分支情况
